@@ -10,12 +10,12 @@ export default function Home() {
                 </div>
             </div>
             <div className="work-section">
-                <div className="w-full h-full">
+                <div className="opacity-0 animate-slide-in-right w-full h-full">
                     <Card content="Work Experience" color="bg-slate-500"/>
                 </div>
             </div>
             <div className="tech-section">
-                <div className="w-full h-full">
+                <div className="opacity-0 animate-slide-in-left w-full h-full">
                 <Card content="Technologies" color="bg-slate-600"/>
                 </div>
             </div>
@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="education-section">
-                <div className="w-full h-full">
+                <div className="animate-slide-in-right w-full h-full">
                     <Card content="Education" color="bg-slate-800"/>
                 </div>
             </div>
