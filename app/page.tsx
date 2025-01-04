@@ -1,5 +1,6 @@
 import Card from "@/app/components/Card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -7,7 +8,9 @@ export default function Home() {
             <Tabs defaultValue="home">
                 <TabsList className="grid w-full grid-cols-2">
                     <TabsTrigger value="home">Home</TabsTrigger>
-                    <TabsTrigger value="projects">Projects</TabsTrigger>
+                    <Link href="/projects">
+                        <TabsTrigger value="projects">Projects</TabsTrigger>
+                    </Link>
                 </TabsList>
             </Tabs>
             <div className="grid grid-cols-3 w-[50%] h-[75%] gap-3">
