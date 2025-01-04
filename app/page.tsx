@@ -1,12 +1,12 @@
-import Card from "@/app/components/Card";
+import Card from "@/components/Card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className="flex flex-col justify-center items-center w-full h-full base-text gap-5">
+        <div className="flex flex-col items-center w-full h-full base-text gap-5 p-5">
             <Tabs defaultValue="home">
-                <TabsList className="grid w-full grid-cols-2">
+                <TabsList>
                     <TabsTrigger value="home">Home</TabsTrigger>
                     <Link href="/projects">
                         <TabsTrigger value="projects">Projects</TabsTrigger>

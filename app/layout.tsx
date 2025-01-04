@@ -24,9 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="flex w-full h-full justify-center items-center dark">
+    <html lang="en" className="flex w-full h-full dark">
       <body
-        className={`flex justify-center items-center ${geistSans.variable} ${geistMono.variable} antialiased bg-black h-full w-full`}
+        className={`flex justify-center ${geistSans.variable} ${geistMono.variable} antialiased bg-black h-full w-full`}
       >
         {children}
       </body>
