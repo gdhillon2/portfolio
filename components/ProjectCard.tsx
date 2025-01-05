@@ -1,13 +1,16 @@
 interface ProjectCardProps {
     projectTitle?: string;
-    textContent: string;
+    textContent?: string;
 }
 
-export default function ProjectCard({projectTitle, textContent}: ProjectCardProps) {
+export default function ProjectCard({ projectTitle, textContent }: ProjectCardProps) {
     return (
-        <div className="w-full h-full p-5 text-orange-400 flex-grow">
-            {projectTitle && <div className="text-xl text-orange-100 font-bold">{projectTitle}</div>}
-            <div className="animate-slide-in-down-delay-200 opacity-0">{textContent}</div>
+        <div className="relative p-2 border border-gray-900 rounded-3xl flex w-full h-[500px] bg-gray-950">
+            <div className="w-full glare-item-outer"></div>
+            <div className="w-full border border-gray-700 rounded-2xl bg-slate-900 p-5 relative">
+            <div className="w-full glare-item-inner"></div>
+                {projectTitle}
+            </div>
         </div>
     )
 }
