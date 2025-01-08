@@ -10,6 +10,16 @@ body {
   @apply text-gray-100;
 }
 
+.corner-glare-item-inner-horizontal {
+  z-index: 1;
+  background-image: linear-gradient(to right, #0000 0%, #fff 10%, #0000 60%);
+  position: absolute;
+  top: 0px;
+  inset: 0% 0% auto;
+  height: 1px;
+  width: 100%;
+}
+
 .glare-item-outer {
   z-index: 1;
   background-image: linear-gradient(to right, #0000 5%, #fffc 35%, #fff 50%, #fffc 65%, #0000 95%);
