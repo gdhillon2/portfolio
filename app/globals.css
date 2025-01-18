@@ -22,42 +22,12 @@ body {
 
 .corner-glare-item-outer-horizontal {
   z-index: 1;
-  background-image: linear-gradient(to right, #0000 2%, #fff 16%, #0000 50%);
+  background-image: linear-gradient(to right, #0000 0%, #fff 10%, #0000 45%);
   position: absolute;
   top: 0px;
   inset: 0% 0% auto;
   height: 1px;
   width: 100%;
-}
-
-.corner-glare-item-outer-horizontal-large {
-  z-index: 1;
-  background-image: linear-gradient(to right, #0000 2%, #fff 16%, #0000 50%);
-  position: absolute;
-  top: 0px;
-  inset: 0% 0% auto;
-  height: 1px;
-  width: 100%;
-}
-
-.corner-glare-item-inner-vertical {
-  z-index: 1;
-  background-image: linear-gradient(to bottom, #0000 0%, #fff 10%, #0000 60%);
-  position: absolute;
-  top: 0px;
-  inset: 0% 0% auto;
-  height: 100%;
-  width: 1px;
-}
-
-.corner-glare-item-inner-vertical-large {
-  z-index: 1;
-  background-image: linear-gradient(to bottom, #0000 0%, #fff 10%, #0000 100%);
-  position: absolute;
-  top: 0px;
-  inset: 0% 0% auto;
-  height: 100%;
-  width: 1px;
 }
 
 .glare-item-outer {
