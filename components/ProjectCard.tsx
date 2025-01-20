@@ -7,18 +7,28 @@ import { useState, useRef, useEffect } from 'react';
 interface ProjectCardProps {
     projectTitle?: string;
     textContent?: string;
+    outerBgColor?: string;
+    bgColor?: string;
+    outerBorderColor?: string;
+    innerBorderColor?: string;
     imgSrc: string | StaticImport;
-    imgWidthScale?: number;
-    imgHeightScale?: number;
 }
 
-export default function ProjectCard({ projectTitle, textContent, imgSrc, imgWidthScale = 0.9, imgHeightScale = 0.7 }: ProjectCardProps) {
+export default function ProjectCard({ 
+    projectTitle,
+    textContent, 
+    bgColor = "bg-gray-900", 
+    outerBgColor = "bg-gray-950", 
+    outerBorderColor = "border-gray-900",
+    innerBorderColor = "border-gray-700",
+    imgSrc, 
+}: ProjectCardProps) {
 
     return (
-        <div className="relative p-2 border border-gray-900 rounded-3xl flex w-full h-[600px] bg-gray-950 group">
+        <div className={`relative p-2 border ${outerBorderColor} rounded-3xl flex w-full h-[600px] ${outerBgColor} group`}>
             <div className="w-full glare-item-outer"></div>
-            <div className="flex flex-col w-full border border-gray-700 rounded-2xl bg-gray-900 relative overflow-hidden">
-                <ArrowRightIcon className="more-info-arrow h-6 w-6 transition-all duration-300 group-hover:left-[95%]" />
+            <div className={`flex flex-col w-full border ${innerBorderColor} rounded-2xl ${bgColor} relative overflow-hidden`}>
+                <ArrowRightIcon className="more-info-arrow h-6 w-6 transition-all duration-300 group-hover:left-[93%]" />
                 <div className="w-full glare-item-inner"></div>
                 <div className="p-[32px]">
                     <div className="text-xl text-shadow font-bold text-white">

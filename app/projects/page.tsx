@@ -23,11 +23,19 @@ export default function Projects() {
                 projectTitle="WASM Draw" 
                 textContent="A simple drawing app that uses WebAssembly to render the canvas." 
                 imgSrc="/resumetailor.svg"
+                bgColor="bg-green-900"
+                outerBgColor ="bg-emerald-950"
+                outerBorderColor="border-emerald-900"
+                innerBorderColor="border-emerald-700"
             />
             <ProjectCard 
                 projectTitle="Self Driving Car" 
                 textContent="A self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
                 imgSrc="/resumetailor.svg"
+                bgColor="bg-red-900"
+                outerBgColor="bg-red-950"
+                outerBorderColor="border-red-900"
+                innerBorderColor="border-red-700"
             />
             </div>
         </div>
