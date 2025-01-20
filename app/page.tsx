@@ -20,7 +20,6 @@ export default function Home() {
                             <div className="corner-glare-item-outer-horizontal"></div>
                             <div className="relative w-full h-full px-4 py-3 rounded-sm border border-gray-700 base-text shadow-md bg-slate-900">
                                 <div className="corner-glare-item-inner-horizontal"></div>
-                                <div className="corner-glare-item-inner-vertical"></div>
                                 <div className="text-shadow text-xl font-bold">About Me</div>
                             </div>
                         </div>
