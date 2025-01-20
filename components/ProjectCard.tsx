@@ -50,7 +50,7 @@ export default function ProjectCard({ projectTitle, textContent, imgSrc, imgWidt
                 </div>
                 <div className="relative flex w-full h-full">
                     <div ref={imageContainerRef} className="absolute justify-end items-end bottom-[-10%] left-[5%] w-[90%] h-full transition-all duration-300 group-hover:bottom-0">
-                        <Image src={imgSrc} alt="project" width={imgWidth} height={imgHeight} layout="responsive" /> 
+                        <Image src={imgSrc} alt="project" width={imgWidth} height={imgHeight} fill={true} /> 
                     </div>
                 </div>
             </div>
