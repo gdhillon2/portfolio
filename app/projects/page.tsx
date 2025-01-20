@@ -19,8 +19,16 @@ export default function Projects() {
                 textContent="An intuitive resume builder that leverages AI to help you createa a resume that gets more responses."
                 imgSrc="/resumetailor.svg"
             />
-            <ProjectCard projectTitle="Test Project" textContent="Lorum something something" imgSrc="/resumetailor.png"/>
-            <ProjectCard projectTitle="Test Project" textContent="Lorum something something" imgSrc="/resumetailor.png"/>
+            <ProjectCard 
+                projectTitle="WASM Draw" 
+                textContent="A simple drawing app that uses WebAssembly to render the canvas." 
+                imgSrc="/resumetailor.svg"
+            />
+            <ProjectCard 
+                projectTitle="Self Driving Car" 
+                textContent="A self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
+                imgSrc="/resumetailor.svg"
+            />
             </div>
         </div>
     )
