@@ -1,5 +1,4 @@
 import ProjectCard from "@/components/ProjectCard";
-import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Link from "next/link";
 
 export default function Projects() {
