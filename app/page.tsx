@@ -1,5 +1,4 @@
 import ProjectCard from "@/components/ProjectCard";
-import Link from "next/link";
 
 export default function Projects() {
     return (
@@ -9,15 +8,17 @@ export default function Projects() {
                 projectTitle="ResumeTailor" 
                 textContent="An intuitive resume builder that leverages AI to help you create a resume that gets more responses."
                 imgSrc="/resumetailor.svg"
+                href="/resumetailor"
             />
             <ProjectCard 
                 projectTitle="WASM Draw" 
-                textContent="A simple drawing app that uses WebAssembly to draw and render the canvas." 
+                textContent="A simple drawing app that uses C++ and WebAssembly to draw and render the canvas." 
                 imgSrc="/resumetailor.svg"
                 bgColor="bg-green-900"
                 outerBgColor ="bg-emerald-950"
                 outerBorderColor="border-emerald-900"
                 innerBorderColor="border-emerald-700"
+                href="/wasmdraw"
             />
             <ProjectCard 
                 projectTitle="Self Driving Car" 
@@ -27,6 +28,7 @@ export default function Projects() {
                 outerBgColor="bg-red-950"
                 outerBorderColor="border-red-900"
                 innerBorderColor="border-red-700"
+                href="/car"
             />
             </div>
         </div>
