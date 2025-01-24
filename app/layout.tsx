@@ -24,10 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="flex w-full h-full dark">
+    <html lang="en" className="flex w-full min-h-screen dark">
       <body
-        className={`flex justify-center ${geistSans.variable} ${geistMono.variable} antialiased bg-black h-full w-full`}
+        className={`flex flex-col justify-center ${geistSans.variable} ${geistMono.variable} antialiased bg-black h-full w-full`}
       >
+        <div className="flex flex-col items-start w-full h-fit p-5 text-shadow text-lg font-bold fixed top-0 left-0">
+          <div>Gurvir Dhillon</div>
+          <div>Software Engineer</div>
+        </div>
         {children}
       </body>
     </html>
