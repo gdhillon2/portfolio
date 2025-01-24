@@ -30,7 +30,16 @@ export default function RootLayout({
       >
         <div className="flex flex-col items-start w-full h-fit p-5 text-shadow text-lg text-white fixed top-0 left-0">
           <div>Gurvir Dhillon</div>
-          <div>Software Engineer</div>
+          <div className="text-sm">Software Engineer @ BW Design Group</div>
+          <div className="text-sm">Sacramento, CA</div>
+        </div>
+        <div className="flex justify-center items-center w-full h-full base-text gap-5 p-5">
+          <div>
+            Projects
+          </div>
+          <div>
+            Contact
+          </div>
         </div>
         {children}
       </body>
