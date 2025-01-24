@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="animate-slide-in-up w-[60%] h-fit grid grid-cols-1 gap-9 p-5">
             <ProjectCard 
                 projectTitle="ResumeTailor" 
-                textContent="An intuitive resume builder that leverages AI to help you createa a resume that gets more responses."
+                textContent="An intuitive resume builder that leverages AI to help you create a resume that gets more responses."
                 imgSrc="/resumetailor.svg"
             />
             <ProjectCard 
