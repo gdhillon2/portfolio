@@ -12,8 +12,8 @@ export default function Projects() {
             />
             <ProjectCard 
                 projectTitle="WASM Draw" 
-                textContent="A simple drawing app that uses C++ and WebAssembly to draw and render the canvas." 
-                imgSrc="/resumetailor.svg"
+                textContent="A drawing web app that uses C++ and WebAssembly to draw and render the canvas." 
+                imgSrc="/wasmdraw.svg"
                 bgColor="bg-green-900"
                 outerBgColor ="bg-emerald-950"
                 outerBorderColor="border-emerald-900"
