@@ -44,7 +44,7 @@ export default function ProjectCard({
                     </div>
                     <div className="relative flex w-full h-full">
                         <div className="absolute justify-end items-end bottom-[-10%] left-[5%] w-[90%] h-full transition-all duration-300 group-hover:bottom-0">
-                            <Image src={imgSrc} alt="project" fill={true} /> 
+                            <Image src={imgSrc} alt="projectimage" fill={true} /> 
                         </div>
                     </div>
                 </div>
