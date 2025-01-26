@@ -18,7 +18,7 @@ export default function Projects() {
                 outerBgColor ="bg-emerald-950"
                 outerBorderColor="border-emerald-900"
                 innerBorderColor="border-emerald-700"
-                href="/wasmdraw"
+                href="/portfolio/wasmdraw"
             />
             <ProjectCard 
                 projectTitle="Self Driving Car" 
@@ -28,7 +28,7 @@ export default function Projects() {
                 outerBgColor="bg-red-950"
                 outerBorderColor="border-red-900"
                 innerBorderColor="border-red-700"
-                href="/car"
+                href="/portfolio/car"
             />
             </div>
         </div>
