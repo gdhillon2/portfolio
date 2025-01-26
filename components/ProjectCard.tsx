@@ -28,10 +28,10 @@ export default function ProjectCard({
 
     return (
         <Link href={href}>
-            <div className={`relative p-2 border ${outerBorderColor} rounded-3xl flex w-full h-fit lg:h-[600px] ${outerBgColor} group`}>
+            <div className={`relative p-2 border ${outerBorderColor} rounded-3xl flex w-full h-fit md:h-[400px] lg:h-[600px] ${outerBgColor} group`}>
                 <div className="w-full glare-item-outer"></div>
                 <div className={`flex flex-col w-full border ${innerBorderColor} rounded-2xl ${bgColor} relative overflow-hidden`}>
-                    <ArrowRightIcon className="more-info-arrow h-6 w-6 transition-all duration-300 group-hover:left-[93%]" />
+                    <ArrowRightIcon className="hidden md:block more-info-arrow h-6 w-6 transition-all duration-300 group-hover:left-[93%]" />
                     <div className="w-full glare-item-inner"></div>
                     <div className="p-[32px]">
                         <div className="text-xl text-shadow font-bold text-white">
@@ -41,7 +41,7 @@ export default function ProjectCard({
                             {textContent}
                         </div>
                     </div>
-                    <div className="relative hidden lg:flex w-full h-full">
+                    <div className="relative hidden md:flex w-full h-full">
                         <div className="absolute justify-end items-end bottom-[-10%] left-[5%] w-[90%] h-full transition-all duration-300 group-hover:bottom-0">
                             <Image src={imgSrc} alt="projectimage" fill={true} /> 
                         </div>
