@@ -7,18 +7,18 @@ export default function Projects() {
             <ProjectCard 
                 projectTitle="ResumeTailor" 
                 textContent="An intuitive resume builder that leverages AI to help you create a resume that gets more responses."
-                imgSrc="/resumetailor.svg"
+                imgSrc="resumetailor.svg"
                 href="/resumetailor"
             />
             <ProjectCard 
                 projectTitle="WASM Draw" 
                 textContent="A drawing web app that uses C++ and WebAssembly to draw and render the canvas." 
-                imgSrc="/wasmdraw.svg"
+                imgSrc="wasmdraw.svg"
                 bgColor="bg-green-900"
                 outerBgColor ="bg-emerald-950"
                 outerBorderColor="border-emerald-900"
                 innerBorderColor="border-emerald-700"
-                href="/portfolio/wasmdraw"
+                href="/wasmdraw"
             />
             <ProjectCard 
                 projectTitle="Self Driving Car" 
@@ -28,7 +28,7 @@ export default function Projects() {
                 outerBgColor="bg-red-950"
                 outerBorderColor="border-red-900"
                 innerBorderColor="border-red-700"
-                href="/portfolio/car"
+                href="/car"
             />
             </div>
         </div>
