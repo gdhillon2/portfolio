@@ -6,13 +6,13 @@ export default function Projects() {
             <div className="animate-slide-in-up w-[100%] lg:w-[60%] h-fit grid grid-cols-1 gap-9 p-5">
             <ProjectCard 
                 projectTitle="ResumeTailor" 
-                textContent="An intuitive resume builder that leverages AI to help you create a resume that gets more responses."
+                textContent="Resume builder that leverages AI to help you create a resume that gets more responses."
                 imgSrc="resumetailor.svg"
                 href="https://resume-tailor-eta.vercel.app/"
             />
             <ProjectCard 
                 projectTitle="WASM Draw" 
-                textContent="A drawing web app that uses C++ and WebAssembly to draw and render the canvas." 
+                textContent="Drawing web app that uses C++ and WebAssembly to draw and render the canvas." 
                 imgSrc="wasmdraw.svg"
                 bgColor="bg-green-900"
                 outerBgColor ="bg-emerald-950"
@@ -22,7 +22,7 @@ export default function Projects() {
             />
             <ProjectCard 
                 projectTitle="Self Driving Car" 
-                textContent="A self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
+                textContent="Self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
                 imgSrc=""
                 bgColor="bg-red-900"
                 outerBgColor="bg-red-950"
