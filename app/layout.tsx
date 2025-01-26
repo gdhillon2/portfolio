@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`flex flex-col justify-center ${geistSans.variable} ${geistMono.variable} antialiased bg-black h-full w-full`}
       >
-        <div className="flex flex-col items-start w-full h-fit p-5 text-shadow text-lg text-white fixed top-0 left-0">
+        <div className="flex flex-col items-start w-fit h-fit p-5 text-shadow text-lg text-white fixed top-0 left-0">
           <div>Gurvir Dhillon</div>
           <div className="text-sm">Software Engineer @ BW Design Group</div>
           <div className="text-sm">Sacramento, CA</div>
