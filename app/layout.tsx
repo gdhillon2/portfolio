@@ -33,7 +33,7 @@ export default function RootLayout({
           <div className="text-sm">Software Engineer @ BW Design Group</div>
           <div className="text-sm">Sacramento, CA</div>
         </div>
-        <div className="flex justify-center items-center w-full h-full base-text gap-5 p-5">
+        <div className="flex justify-center items-end w-full h-[108px] base-text gap-5 py-5">
           <div>
             Projects
           </div>
