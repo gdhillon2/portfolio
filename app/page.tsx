@@ -28,7 +28,7 @@ export default function Projects() {
                 outerBgColor="bg-red-950"
                 outerBorderColor="border-red-900"
                 innerBorderColor="border-red-700"
-                href="/car"
+                href="https://github.com/gdhillon2/self-driving-car"
             />
             </div>
         </div>
