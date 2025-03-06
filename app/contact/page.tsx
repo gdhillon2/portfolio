@@ -1,4 +1,3 @@
-import Card from "@/components/Card";
 import ContactCard from "@/components/ContactCard";
 
 export default function ContactPage() {
