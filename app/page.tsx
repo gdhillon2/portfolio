@@ -23,11 +23,11 @@ export default function Projects() {
             <ProjectCard 
                 projectTitle="Self Driving Car" 
                 textContent="Self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
-                imgSrc=""
-                bgColor="bg-red-900"
-                outerBgColor="bg-red-950"
-                outerBorderColor="border-red-900"
-                innerBorderColor="border-red-700"
+                imgSrc="car.svg"
+                bgColor="bg-gray-700"
+                outerBgColor="bg-gray-800"
+                outerBorderColor="border-gray-900"
+                innerBorderColor="border-gray-700"
                 href="https://github.com/gdhillon2/self-driving-car"
             />
             </div>
