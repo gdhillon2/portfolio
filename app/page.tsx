@@ -8,16 +8,16 @@ export default function Projects() {
                 projectTitle="ResumeTailor" 
                 textContent="Resume builder that leverages AI to help you create a resume that gets more responses."
                 imgSrc="resumetailor.svg"
+                bgColor="bg-neutral-900"
+                outerBgColor ="bg-neutral-950"
+                outerBorderColor="border-neutral-900"
+                innerBorderColor="border-neutral-700"
                 href="https://resume-tailor-eta.vercel.app/"
             />
             <ProjectCard 
                 projectTitle="WASM Draw" 
                 textContent="Drawing web app that uses C++ and WebAssembly to draw and render the canvas." 
                 imgSrc="wasmdraw.svg"
-                bgColor="bg-slate-900"
-                outerBgColor ="bg-slate-950"
-                outerBorderColor="border-slate-900"
-                innerBorderColor="border-slate-700"
                 href="https://gdhillon2.github.io/WASM-Draw/"
             />
             <ProjectCard 
