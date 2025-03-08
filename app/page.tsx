@@ -24,10 +24,10 @@ export default function Projects() {
                 projectTitle="Self Driving Car" 
                 textContent="Self driving car that uses IR and ultrasonic sensors to navigate a road with obstacles." 
                 imgSrc="car.svg"
-                bgColor="bg-gray-800"
-                outerBgColor="bg-gray-900"
-                outerBorderColor="border-gray-700"
-                innerBorderColor="border-gray-600"
+                bgColor="bg-slate-900"
+                outerBgColor="bg-slate-950"
+                outerBorderColor="border-slate-900"
+                innerBorderColor="border-slate-700"
                 href="https://github.com/gdhillon2/self-driving-car"
             />
             </div>
